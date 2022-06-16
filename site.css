@@ -3,21 +3,32 @@ body {
     font-size: 16px;
     background-image: url("space.jpg");
     background-color: dimgrey;
-    color: #696969;
-    padding: 3px;
+    color: white;
+    padding: 200px;
 }
 
 #main {
     padding: 5px;
     padding-left:  15px;
     padding-right: 15px;
-    background-color: #ffffff;
+    color: white;
+    background: rgba(76, 175, 80, 0.1)
     border-radius: 5px 5px 5px 5px;
 }
 
 h1 {
     font-family: Helvetica, serif;
-    border-bottom: 10px solid #010e24;
-    color: #030000;
-    font-size: 50px;
+    border-bottom: 5px solid white;
+    color: white;
+    font-size: 40px;
+}
+
+a:link, a:visited {
+  background-color: white;
+  opacity: 0.75;
+  color: black;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
